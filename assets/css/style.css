@@ -71,3 +71,22 @@
     font-family: 'Montserrat-Regular';
     color: black;
 }
+
+/* Responsive media queries start here */
+@media (max-width: 991px){
+    .total-stats .g-stat-cont{
+        font-size: 11px;
+    }
+    .total-stats .g-stat-cont h4{
+        font-size: 20px;
+    }
+    .single-state-cont .details h3{
+        font-size: 9px;
+    }
+    .single-state-list h3{
+        font-size: 11px;
+    }
+}
+@media (max-width: 767px){
+
+}
