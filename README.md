@@ -1,6 +1,9 @@
 # India-Covid-19-Updates
 A website to display Real-Time covid-19 Active cases state wise in India using RootNet's data API.
 
+Currently Deployed <a href="https://wonderful-joliot-8844ed.netlify.app/">Here</a> <br />
+[![Netlify Status](https://api.netlify.com/api/v1/badges/091a4b30-9661-4f79-ae3f-e9308a8a2b8a/deploy-status)](https://app.netlify.com/sites/wonderful-joliot-8844ed/deploys)
+
 
 ## Database details
 Compiled from <a href="https://www.mohfw.gov.in/"> The Ministry of Health and Family Welfare </a>
