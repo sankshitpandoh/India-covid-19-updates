@@ -8,6 +8,7 @@
         <title>Covid-19 Updates - India</title>
 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/font-face.css" />
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
@@ -16,45 +17,117 @@
 
             <div class="total-stats">
                 <div class="container">
+
                     <div class="d-flex justify-content-center py-2">
-                        <p class="lastUpdate">Last Updated: <span> data not received </span></p>
+                        <p class="lastUpdate">Last Updated: <span> Data not received </span></p>
                     </div>
+
                     <div class="row py-3 justify-content-center">
+
                         <div class="col-2 d-flex flex-column text-center">
-                            <div class="g-stat-cont first"> 
+                            <div class="g-stat-cont p-1 first"> 
                                 <p>Total cases:</p>
                                 <h4 id="tCases"> N/A </h4>
                             </div>
                         </div>
+
                         <div class="col-2 d-flex flex-column text-center">
-                            <div class="g-stat-cont second">
+                            <div class="g-stat-cont p-1 second">
                                 <p>Indian Cases:</p>
                                 <h4 id="iCases"> N/A </h4>
                             </div>
                         </div>
+
                         <div class="col-2 d-flex flex-column text-center">
-                            <div class="g-stat-cont first">
+                            <div class="g-stat-cont p-1 first">
                                 <p>Foreign Cases:</p>
                                 <h4 id="fCases"> N/A </h4>
                             </div>
                         </div>
+
                         <div class="col-2 d-flex flex-column text-center">
-                            <div class="g-stat-cont second">
+                            <div class="g-stat-cont p-1 second"> 
+                                <p>Active Cases:</p>
+                                <h4 id="aCases"> N/A </h4>
+                            </div>
+                        </div>
+
+                        <div class="col-2 d-flex flex-column text-center">
+                            <div class="g-stat-cont p-1 first">
                                 <p>Recovered:</p>
                                 <h4 id="rCases"> N/A </h4>
                             </div>
                         </div>
+
                         <div class="col-2 d-flex flex-column text-center">
-                            <div class="g-stat-cont first">
+                            <div class="g-stat-cont p-1 second">
                                 <p>Deceased:</p>
                                 <h4 id="dCases"> N/A </h4>
                             </div>    
                         </div>  
+
                     </div>
+
                 </div>
-            </div>   
+            </div> 
+            
+            <div class="single-state-cont">
+                <div class="container">
+
+                    <div class="source-text d-flex justify-content-between p-2">
+                        <p class="data-information">
+                            Compiled from <a href="https://www.mohfw.gov.in/"> The Ministry of Health and Family Welfare </a>
+                            and separately from <a href="https://github.com/amodm/api-covid19-in#unofficial-sources">Unofficial Sources</a>
+                        </p>
+                        <p class="data-information">
+                            API source: <a href="https://github.com/amodm/api-covid19-in">Here</a>
+                        </p>
+                    </div>
+
+                    <div class="details row justify-content-center pt-3 pb-2">
+
+                        <div class="col-2">
+                            <div class="field p-1 d-flex justify-content-center">
+                                <h3>State / UT</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <div class="field p-1 d-flex justify-content-center">
+                                <h3>Confirmed Cases</h3>
+                            </div>
+                        </div>
+             
+                       <div class="col-2">
+                            <div class="field p-1 d-flex justify-content-center">
+                                <h3>Active Cases</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <div class="field p-1 d-flex justify-content-center">
+                                <h3>Recovered</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <div class="field p-1 d-flex justify-content-center">
+                                <h3>Deceased</h3>
+                            </div>
+                       </div>
+
+                    </div>
+                    <div class="row single-state-list">
+                        <!-- <div class=""></div> -->
+                    </div>
+
+                </div>
+            </div>
 
         </div>
+        <script src="assets/js/vendors/jquery.min.js"></script>
+        <script src="assets/js/vendors/waypoints.min.js"></script>
+        <script src="assets/js/vendors/counterup.min.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>
