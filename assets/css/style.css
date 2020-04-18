@@ -1,0 +1,19 @@
+.total-stats{
+    background-color: #d4ebd0;
+}
+.total-stats .lastUpdate{
+    color: black;
+    font-size: 15px;
+}
+.total-stats .lastUpdate span{
+    color: blue;
+}
+.total-stats .g-stat-cont{
+    border-radius: 4px;
+}
+.total-stats .first{
+    background-color: #ffeb99; 
+}
+.total-stats .second{
+    background-color: #a4c5c6;
+}

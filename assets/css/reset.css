@@ -1,0 +1,9 @@
+*{ box-sizing:border-box;}
+body{ padding:0; margin:0; scroll-behavior:smooth; color:#444}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+figure{ padding:0; margin:0; line-height:0;}
+img{ max-width:100%; max-height:100%}
+ul,li{ text-decoration:none; display:inline; margin:0; padding:0;}
+a{ text-decoration:none; transition: all 0.5s;}
+a:hover{ text-decoration:none;}
+p{ margin:0; padding:0}
