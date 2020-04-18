@@ -14,6 +14,8 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "https://api.rootnet.in/covid19-in/stats/latest", true);
 xhttp.send();
 
+new WOW().init();
+
 function updateSummaryStats(receivedData){
   dateTime = new Date(receivedData.lastRefreshed)
   lastUpdateTime[0] = dateTime.getDate()
@@ -37,7 +39,7 @@ function updateSummaryStats(receivedData){
 
 function updateSingleStateStats(receivedData){
   for(let i = 0; i < receivedData.data.regional.length; i++){
-    document.querySelector(".single-state-list").innerHTML += `<div class="col-12 p-1"> <div class="single-state d-flex justify-content-center">
+    document.querySelector(".single-state-list").innerHTML += `<div class="col-12 p-1 wow bounceInUp"> <div class="single-state d-flex justify-content-center">
     <div class="col-2 d-flex align-items-center"> <h3 class="text-left"> ${receivedData.data.regional[i].loc} </h3> </div>
     <div class="col-2 d-flex align-items-center justify-content-center"> <h3 text-center> ${receivedData.data.regional[i].confirmedCasesIndian + receivedData.data.regional[i].confirmedCasesForeign } </h3> </div>
     <div class="col-2 d-flex align-items-center justify-content-center"> <h3 text-center> ${(receivedData.data.regional[i].confirmedCasesIndian + receivedData.data.regional[i].confirmedCasesForeign) - (receivedData.data.regional[i].discharged + receivedData.data.regional[i].deaths) } </h3> </div>
