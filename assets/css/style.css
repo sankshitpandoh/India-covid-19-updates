@@ -81,12 +81,31 @@
         font-size: 20px;
     }
     .single-state-cont .details h3{
-        font-size: 9px;
+        font-size: 13px;
     }
     .single-state-list h3{
         font-size: 11px;
     }
 }
 @media (max-width: 767px){
-
+    .total-stats .g-stat-cont{
+        margin-bottom: 10px;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .single-state-cont .source-text .data-information{
+        font-size: 9px;
+    }
+}
+@media (max-width: 575px){
+    .single-state-cont .details h3{
+        font-size: 10px;
+    }
+    .single-state-list h3{
+        font-size: 8px;
+    }
+    .details .col-2{
+        max-width: 20% !important;
+    }
 }
