@@ -71,7 +71,46 @@
     font-family: 'Montserrat-Regular';
     color: black;
 }
-
+.additonal-information{
+    background-color: #D4EBD0;
+    padding: 20px 0;
+}
+.additonal-information p{
+    font-family: 'Montserrat-Bold';
+}
+.additonal-information a{
+    text-decoration: none;
+}
+.additonal-information a:hover .github{
+ background-color: white;
+ color: black;
+}
+.additonal-information a .github{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    font-family: 'Montserrat-Regular';
+}
+.main-footer{
+    padding: 10px 0;
+    background-color: #BAE5E5;
+}
+.main-footer p{
+    font-size: 12px;
+}
+.main-footer p span a{
+    color: #6c757d;
+    text-decoration: none;
+}
+.main-footer ul li a{
+    font-size: 18px;
+    color: #6c757d;
+}
+.main-footer ul li a:hover{
+    color: black;
+    background-color: transparent;
+}
 /* Responsive media queries start here */
 @media (max-width: 991px){
     .total-stats .g-stat-cont{
@@ -107,5 +146,8 @@
     }
     .details .col-2{
         max-width: 20% !important;
+    }
+    .additonal-information h5{
+        font-size: 15px;
     }
 }
