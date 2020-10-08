@@ -2,7 +2,7 @@
     background-color: #323232;
 } */
 .total-stats{
-    background-color: #d4ebd0;
+    background-color: #2B4162;
     font-family: 'Montserrat-Light';
 }
 .total-stats h4{
@@ -30,21 +30,21 @@
     color: rgba(40,167,69,.8);
 }
 .total-stats .first{
-    background-color: #ffeb99; 
+    background-color: #E1CDB5; 
 }
 .total-stats .second{
-    background-color: #a4c5c6;
+    background-color: #CDDFA0;
 }
 
 .single-state-cont{
-    background-color: #bae5e5;
+    background-color: #385F71;
 }
 .single-state-cont .source-text{
     border-bottom: 2px solid #6c757d;
 } 
 .single-state-cont .source-text .data-information{
     font-size: 12px;
-    color: #6c757d;
+    color: #F5F0F6;
     font-family: 'Montserrat-Light';
     text-align: right;
 }
@@ -72,8 +72,9 @@
     color: black;
 }
 .additonal-information{
-    background-color: #D4EBD0;
+    background-color: #F5F0F6;
     padding: 20px 0;
+    border-bottom: 1px solid #7B9EA8
 }
 .additonal-information p{
     font-family: 'Montserrat-Bold';
@@ -94,7 +95,7 @@
 }
 .main-footer{
     padding: 10px 0;
-    background-color: #BAE5E5;
+    background-color: #F5F0F6;
 }
 .main-footer p{
     font-size: 12px;
@@ -117,7 +118,7 @@
         font-size: 11px;
     }
     .total-stats .g-stat-cont h4{
-        font-size: 20px;
+        font-size: 15px;
     }
     .single-state-cont .details h3{
         font-size: 13px;
