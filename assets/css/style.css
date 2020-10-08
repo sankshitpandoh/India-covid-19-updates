@@ -72,8 +72,9 @@
     color: black;
 }
 .additonal-information{
-    background-color: #D4EBD0;
+    background-color: #F5F0F6;
     padding: 20px 0;
+    border-bottom: 1px solid #7B9EA8
 }
 .additonal-information p{
     font-family: 'Montserrat-Bold';
@@ -94,7 +95,7 @@
 }
 .main-footer{
     padding: 10px 0;
-    background-color: #BAE5E5;
+    background-color: #F5F0F6;
 }
 .main-footer p{
     font-size: 12px;
@@ -117,7 +118,7 @@
         font-size: 11px;
     }
     .total-stats .g-stat-cont h4{
-        font-size: 20px;
+        font-size: 15px;
     }
     .single-state-cont .details h3{
         font-size: 13px;
